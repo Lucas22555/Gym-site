@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./final_project.css">
+    <title>Home</title>
+    <script src="https://kit.fontawesome.com/1165876da6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navBar">
+        <div class="nav-items">
+            <a href="final_project_mainpage.html" class="linkItem active">Home</a>
+            <a href="about_me.html" class="linkItem">About me</a>
+            <a href="workout_program.html" class="linkItem">Workout program</a>
+            <a href="hypertrophy.html" class="linkItem">Hypertrophy</a>
+            <a href="Nutrition.html" class="linkItem">Nutrition</a>
+            <a href="calorie_calculator.html" class="linkItem">Calorie calculator</a>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <main>
+        <div class="inner-container">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>welcome to my free lifting and nutrition hypertrophy-based bodybuilding program.</h1>
+                    <p>If fitness is your all-time passion and you wish to achieve maximum results in the gym, then
+                        this page is the right place for you.</p>
+                  
+                </div>
+                <div class="img-box">
+                    <img src="./images/gym picture mainpage.jpg" alt="Gym Guy Holding Duumbell">
+                </div>
+            </div>
+        </div>
+        
+        <hr>
+        
+
+        <div class="choose-container">
+            <div class="choose-row">
+                <h1>Why Choose Me?</h1>
+                <p>
+                    Here we will explore the concepts of hypotrophy training, optimal lifting routine & splits, your
+                    daily
+                    nutrition intake as well as your personal BMI and calorie calculator
+                </p>
+                <div class="choose-col">
+                    <h1>Are you ready?</h1>
+                    <p>
+                        Then let’s begin our muscle-building journey.
+                    </p>
+                    <div class="button-flex">
+                        <button>
+                            <a href="about_me.html">Read Articles →</a>
+                        </button>
+                        <button style="display: none;"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-column">
+                <h3>Quick links</h3>
+                <ui class="list">
+                    <li><a href="final_project_mainpage.html" class="active">home</a></li>
+                    <li><a href="about_me.html">About me</a></li>
+                    <li><a href="workout_program.html">Workout program</a></li>
+                    <li><a href="hypertrophy.html">Hypertrophy</a></li>
+                    <li><a href="Nutrition.html">Nutrition</a></li>
+                    <li><a href="calorie_calculator.html">Calorie calculator</a></li>
+                </ui>
+            </div>
+            <div class="footer-column">
+                <h3>Contact us</h3>
+                <div class="method">
+                    <li>
+                        <img src="./images/discord.png" alt="Discord">
+                        sho6900
+                    </li>
+                    <li>
+                        <img src="./images/mail.png" alt="Email">
+                        fitness.mori@gmail.com
+                    </li>
+                    <li>
+                        <img src="./images/phone.png" alt="Phone">
+                        +358422602146
+                    </li>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Follow me</h3>
+                <ui class="social-icons">
+                    <li><a href="https://youtube.com/@shomori9642?si=8qNNf8pKNKXAndeC" target="_blank"><i
+                                class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/Alkanphel6900" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ui>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <p>&copy; 2024 Lucas Björkman. All right reserved</p>
+        </div>
+    </footer>
+
+    <script>
+        const NavIcon = document.querySelector(".hamburger");
+        const NavBar = document.querySelector(".nav-items");
+
+        NavIcon.addEventListener("click", () => {
+            NavIcon.classList.toggle("active")
+            NavBar.classList.toggle("active");
+        })
+    </script>
+</body>
+
+</html>
